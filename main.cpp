@@ -1,9 +1,5 @@
-#include <iostream>
-#include "Logger.hpp"
-
-// #include <spdlog/cfg/env.h> // support for loading levels from the environment variable
+#include "spd/spdlog.hpp"
 int main()
-
 {
-    Logger lg("../logs");
-}   
+    spdlog_sub::rotating_example();
+}
